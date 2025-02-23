@@ -47,7 +47,7 @@
         }
         
         button:active {
-            top: 1px;
+            top: 29%;
             box-shadow: #fde400 0px 3px 2px, #000 0px 3px 5px;
         }
         .image_container {
@@ -58,14 +58,7 @@
             height: 100%;
             top: 80%;
         }
-        @media (min-width: 768px) {
-            .banan {
-                scale: 40%;
-            }
-            button {
-                top: 10%;
-            }
-        }
+        
     </style>
     <script>
         function play() {
@@ -73,6 +66,16 @@
             audio.play();
         }
     </script>
+    <style>
+        @media (min-width: 768px) {
+            .banan {
+                scale: 20%;
+            }
+            button {
+                top: 30%;
+            }
+        }
+    </style>
 </head>
 <body>
     <button onclick="play()"> <span><b>Naciśnij mnie</b></span>
