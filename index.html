@@ -43,6 +43,7 @@
   display: block;
             margin: auto;
             scale: 200%;
+            top: 20%;
 }
 
 button:hover {
@@ -54,6 +55,11 @@ button:active {
   box-shadow: #c0392b 0px 3px 2px,#000 0px 3px 5px;
 }
 
+.image_container{
+    left: 50%;
+    top: 50%; 
+    transform: 
+}
       </style>
       <script>
         function play() {
@@ -63,11 +69,13 @@ button:active {
       </script>
 </head>
 <body>
+    
     <button onclick="play()"> <span>Naciśnij mnie</span>
     <audio id="audio" src="Nowe nagranie 4.mp3"></audio>
     </button>
+    <div class='image_container'>
     <img src="banan.png" class="banan">
-    
+    </div>
     
   </body>
 </html>
